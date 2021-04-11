@@ -311,7 +311,7 @@ def main():
         if select == "Confirmed Cases": 
             
             today = datetime.datetime.strptime("2020-01-22","%Y-%m-%d")
-            tomorrow =  datetime.datetime.strptime("2021-03-04","%Y-%m-%d")
+            tomorrow =  datetime.datetime.strptime("2021-04-12","%Y-%m-%d")
             
             start_date = st.date_input('Start date - starting date', today)
             end_date = st.date_input('End date', tomorrow)
@@ -350,7 +350,7 @@ def main():
         elif select == "Recovered Cases":
             
             today = datetime.datetime.strptime("2020-01-22","%Y-%m-%d")
-            tomorrow =  datetime.datetime.strptime("2021-03-04","%Y-%m-%d")
+            tomorrow =  datetime.datetime.strptime("2021-04-12","%Y-%m-%d")
             
             start_date = st.date_input('Start date - starting date', today)
             end_date = st.date_input('End date', tomorrow)
@@ -377,7 +377,7 @@ def main():
         else: 
            
             today = datetime.datetime.strptime("2020-01-22","%Y-%m-%d")
-            tomorrow =  datetime.datetime.strptime("2021-03-04","%Y-%m-%d")
+            tomorrow =  datetime.datetime.strptime("2021-04-12","%Y-%m-%d")
             
             start_date = st.date_input('Start date - starting date', today)
             end_date = st.date_input('End date', tomorrow)
